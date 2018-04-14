@@ -14,3 +14,4 @@ is recommended to download the release at
 
 * Template for C#
 * Make this installable in Visual Studio 2015 Community
+* Test with AppVeyor
