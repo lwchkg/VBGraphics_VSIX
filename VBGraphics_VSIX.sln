@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBGraphics_VSIX", "VBGraphics_VSIX\VBGraphics_VSIX.vbproj", "{4711222F-B0F8-491F-B708-23DF80FA96C3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VBGraphics_Template", "VBGraphics_Template\VBGraphics_Template.vbproj", "{B2C03512-AF6C-4F83-ADC5-47C404D46B51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4711222F-B0F8-491F-B708-23DF80FA96C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4711222F-B0F8-491F-B708-23DF80FA96C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4711222F-B0F8-491F-B708-23DF80FA96C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4711222F-B0F8-491F-B708-23DF80FA96C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C03512-AF6C-4F83-ADC5-47C404D46B51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C03512-AF6C-4F83-ADC5-47C404D46B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C03512-AF6C-4F83-ADC5-47C404D46B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C03512-AF6C-4F83-ADC5-47C404D46B51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3095D89A-BD17-417A-BD55-D9C5EB1BE3B8}
+	EndGlobalSection
+EndGlobal

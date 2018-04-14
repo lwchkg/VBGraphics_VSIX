@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="VBGraphics.0063c1ce-5da1-4dfd-b39d-3d474c72617f" Version="0.1.0.2" Language="en-US" Publisher="WC Leung" />
+        <DisplayName>VBGraphics</DisplayName>
+        <Description xml:space="preserve">QBasic style graphics library for .NET</Description>
+        <MoreInfo>https://github.com/lwchkg/VBGraphics/</MoreInfo>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0]" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset d:Source="Project" Type="Microsoft.VisualStudio.ProjectTemplate" d:ProjectName="VBGraphics_Template" d:TargetPath="|VBGraphics_Template;TemplateProjectOutputGroup|" Path="ProjectTemplates" d:VsixSubPath="ProjectTemplates" />
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,16.0)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+</PackageManifest>
